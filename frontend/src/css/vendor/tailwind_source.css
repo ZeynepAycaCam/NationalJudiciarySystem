@@ -1,0 +1,82 @@
+/*
+ * See package.json - scripts.tailwindcss
+ * on how to create an output file.
+ */
+
+ @tailwind preflight;
+
+ @tailwind utilities;
+
+ @tailwind components;
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.bg-gray-gradient {
+    background-image: linear-gradient(178deg, #ffffff, #f4f6f8);
+}
+
+.theme-light {
+    --primary : #325FFF;
+    --primaryLight: #0f97ff;
+    --primaryDark: #243983;
+    --primaryDarkx: #182fff;
+    --dark: #212B36;
+    --gunmetal:#454f5b;
+    --battleshipGrey:#637381;
+    --blueyGrey: #919EAB;
+    --lightBlueGrey: #C4CDD5;
+    --paleBlue: #DFE3E8;
+    --paleGrey: #F4F6F8;
+    --lightPaleGrey: #F9FaFb;
+    --white: #FFFFFF;
+    --green: #19A560;
+    --yellow: #EDC200;
+    --red: #FF3E3E;
+    --blue: #08aeea;
+    --faint-green: #19A560;
+    --faint-yellow: #FFFCEB;
+    --faint-red: #FFEBEB;
+    --faint-blue: #eaf6fc;
+  }
+  
+  .theme-black {
+    --primary : #ff3e3e;
+    --primaryLight: #0f97ff;
+    --primaryDark: #ffffff;
+    --primaryDarkx: #182fff;
+    --dark: #212B36;
+    --gunmetal:#454f5b;
+    --battleshipGrey:#637381;
+    --blueyGrey: #19a560;
+    --lightBlueGrey: #C4CDD5;
+    --paleBlue: #DFE3E8;
+    --paleGrey: #F4F6F8;
+    --lightPaleGrey: #F9FaFb;
+    --white: #212B36;
+    --green: #19A560;
+    --yellow: #EDC200;
+    --red: #FF3E3E;
+    --blue: #08aeea;
+    --faint-green: #19A560;
+    --faint-yellow: #FFFCEB;
+    --faint-red: #FFEBEB;
+    --faint-blue: #eaf6fc;
+  }
+
+  /* Navbar scroll values*/
+  .nav-transition {
+    transition: top 0.1s ease-in-out;
+  }
+  .nav-up {
+    top:-96px;
+  }
+  @media (max-width: 767px) {
+  .sm\:nav-up {
+    top:-72px;
+  }
+  .sm\:pin-t-56 {
+    top:56px;
+  }
+}
