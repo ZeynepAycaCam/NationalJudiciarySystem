@@ -10,7 +10,7 @@
     "tailwindcss": "./node_modules/.bin/tailwind build src/css/vendor/tailwind_source.css -c src/css/vendor/tailwind.js -o ./src/css/vendor/tailwind_output.css"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "classnames": "^2.2.6",
     "express": "4.16.4",
     "isomorphic-fetch": "^2.2.1",
